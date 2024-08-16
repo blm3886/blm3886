@@ -1,4 +1,4 @@
-![Border](https://example.com/your-border-image.png)
+
 # Hi, 👋
 ## Welcome to my GitHub profile! I'm an aspiring Full Stack Developer with a deep interest in building scalable, efficient, and user-centric applications. I specialize in blending technology with creativity to solve complex problems and enhance user experiences across the web and beyond.
 
