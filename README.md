@@ -1,5 +1,9 @@
 # Hi, 👋
-# Welcome to my GitHub profile! I'm an aspiring Full Stack Developer with a deep interest in building scalable, efficient, and user-centric applications. I specialize in blending #technology with creativity to solve complex problems and enhance user experiences across the web and beyond.
+## Welcome to my GitHub profile! I'm an aspiring Full Stack Developer with a deep interest in building scalable, efficient, and user-centric applications. I specialize in blending technology with creativity to solve complex problems and enhance user experiences across the web and beyond.
+![Coding](https://media.giphy.com/media/3o7btVbq1Wl9JjJlo8/giphy.gif)
+![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-brightgreen)
+![GitHub Followers](https://img.shields.io/github/followers/yourusername?style=social)
+
 
 ### Here are the tools and technologies I’m currently working with:
 
