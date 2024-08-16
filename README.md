@@ -1,4 +1,4 @@
-                [![View on Giphy](https://media.giphy.com/media/26tn33aiTi1jkl6H6/200w_d.gif)](https://giphy.com/gifs/screen-monitor-closeup-26tn33aiTi1jkl6H6)
+
 # Hi, 👋
 ## Welcome to my GitHub profile! I'm an aspiring Full Stack Developer with a deep interest in building scalable, efficient, and user-centric applications. I specialize in blending technology with creativity to solve complex problems and enhance user experiences across the web and beyond.
 
