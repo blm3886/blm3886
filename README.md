@@ -30,6 +30,10 @@
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
+### **📊 Statistical Analysis & Bioinformatics:**
+![Bioconductor](https://img.shields.io/badge/Bioconductor-1F77B4?style=for-the-badge&logo=bioconductor&logoColor=white)
+![Statistical Analysis](https://img.shields.io/badge/Statistical%20Analysis-FF7F0E?style=for-the-badge&logo=statistical-analysis&logoColor=white)
+
 
 
 
