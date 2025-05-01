@@ -2,7 +2,7 @@
 # Hi, 👋
 ## Welcome to my GitHub profile! 
 ### I'm an aspiring Full Stack Developer with a deep interest in building scalable, efficient, and user-centric applications.
-### I specialize in blending technology with creativity to solve complex problems and enhance user experiences across the web and beyond.
+### I specialize in blending technology with creativity to enhance user experiences across the web and beyond.
 
 <img src="https://github.com/blm3886/blm3886/raw/main/image.gif" alt="image" width="1000" height="150">
 
