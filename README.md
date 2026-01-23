@@ -4,7 +4,14 @@
 ### I'm an aspiring Full Stack Developer with a deep interest in building scalable, efficient, and user-centric applications.
 ### I specialize in blending technology with creativity to enhance user experiences across the web and beyond.
 
-<img src="https://github.com/blm3886/blm3886/raw/main/github.gif" alt="image" width="350" height="350">
+<!-- <img src="https://github.com/blm3886/blm3886/raw/main/github.gif" alt="image" width="350" height="350"> -->
+<p align="center">
+  <img src="https://github.com/blm3886/blm3886/raw/main/github.gif"
+       alt="image"
+       width="350"
+       height="350">
+</p>
+
 
 ### Here are the tools and technologies I’m currently working with:
 
