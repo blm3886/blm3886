@@ -29,6 +29,8 @@ jobs:
 
       - name: Recolor only the eaten trail red (empty cells keep default color)
         run: |
+          # snk runs in Docker as root, so dist/ is root-owned; take ownership so sed can write.
+          sudo chown -R "$(id -u):$(id -g)" dist
           for f in dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg; do
             # snk paints BOTH empty cells and the eaten end-state with var(--ce).
             # 1) Repoint the base ".c" rule (empty cells) at --c0 so they keep the default color.
