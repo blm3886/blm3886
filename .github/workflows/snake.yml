@@ -20,9 +20,11 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # color_dots = [empty/eaten, level1, level2, level3, level4]
+          # first color is RED so eaten & empty cells show red (contributions never look "missing")
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#8b5cf6&color_dots=#e5534b,#9be9a8,#40c463,#30a14e,#216e39
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#8b5cf6&color_dots=#e5534b,#9be9a8,#40c463,#30a14e,#216e39
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
