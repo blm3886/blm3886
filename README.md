@@ -26,6 +26,12 @@
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=blm3886&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=8B5CF6&line=06B6D4&point=ffffff&area=true&days=30" alt="Activity Graph" />
 
+<br/>
+
+<a href="https://blm3886.github.io/contribution-timeline/">
+  <img src="https://img.shields.io/badge/%F0%9F%93%88%20Explore%20my%20full%20timeline-drag%20across%20the%20days%20axis-06B6D4?style=for-the-badge&labelColor=0D1117" alt="Explore contribution timeline" height="34" />
+</a>
+
 </div>
 
 <!-- ═══════════════════════════ SNAKE (playable banner) ═══════════════════════════ -->
