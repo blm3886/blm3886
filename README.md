@@ -28,15 +28,23 @@
 
 </div>
 
-<!-- ═══════════════════════════ SNAKE ═══════════════════════════ -->
+<!-- ═══════════════════════════ SNAKE (playable banner) ═══════════════════════════ -->
 
 <div align="center">
 
+<a href="https://blm3886.github.io/contribution-snake/" title="Click to play — this snake is a real game!">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blm3886/blm3886/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/blm3886/blm3886/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/blm3886/blm3886/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake — click to play" src="https://raw.githubusercontent.com/blm3886/blm3886/output/github-contribution-grid-snake.svg" />
 </picture>
+</a>
+
+<br/>
+
+<a href="https://blm3886.github.io/contribution-snake/">
+  <img src="https://img.shields.io/badge/%E2%96%B6%20Play%20this%20snake-it's%20a%20real%20game!-8B5CF6?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Play this snake" height="34" />
+</a>
 
 </div>
 
