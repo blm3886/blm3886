@@ -27,6 +27,16 @@
 
 <br/>
 
+**⚡ Contribution breakdown** — live from the GitHub API
+
+![Pull Requests](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%3Ablm3886%2Btype%3Apr&query=total_count&style=for-the-badge&label=Pull%20Requests&color=8b5cf6&labelColor=0D1117&logo=git&logoColor=white)
+![Merged PRs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%3Ablm3886%2Btype%3Apr%2Bis%3Amerged&query=total_count&style=for-the-badge&label=Merged%20PRs&color=6f42c1&labelColor=0D1117&logo=git&logoColor=white)
+![Issues Opened](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%3Ablm3886%2Btype%3Aissue&query=total_count&style=for-the-badge&label=Issues%20Opened&color=06b6d4&labelColor=0D1117&logo=github&logoColor=white)
+![PRs Reviewed](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dreviewed-by%3Ablm3886%2Btype%3Apr&query=total_count&style=for-the-badge&label=PRs%20Reviewed&color=3fb950&labelColor=0D1117&logo=githubactions&logoColor=white)
+![Comments](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dcommenter%3Ablm3886&query=total_count&style=for-the-badge&label=Comments&color=e3b341&labelColor=0D1117&logo=githubsponsors&logoColor=white)
+
+<br/>
+
 <a href="https://blm3886.github.io/contribution-timeline/">
   <img src="https://img.shields.io/badge/%F0%9F%93%88%20Explore%20my%20full%20timeline-months%20%26%20years%2C%20drag%20across%20time-06B6D4?style=for-the-badge&labelColor=0D1117" alt="Explore contribution timeline" height="34" />
 </a>
