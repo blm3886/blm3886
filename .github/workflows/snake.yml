@@ -20,11 +20,23 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # color_dots = [empty/eaten, level1, level2, level3, level4]
-          # first color is RED so eaten & empty cells show red (contributions never look "missing")
+          # color_dots = [empty, level1, level2, level3, level4]
+          # empty stays the DEFAULT calendar color here; the recolor step below turns
+          # only the *eaten* trail red (empty/never-contributed cells stay default).
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#8b5cf6&color_dots=#e5534b,#9be9a8,#40c463,#30a14e,#216e39
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#8b5cf6&color_dots=#e5534b,#9be9a8,#40c463,#30a14e,#216e39
+            dist/github-contribution-grid-snake.svg?color_snake=#8b5cf6&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#8b5cf6&color_dots=#161b22,#9be9a8,#40c463,#30a14e,#216e39
+
+      - name: Recolor only the eaten trail red (empty cells keep default color)
+        run: |
+          for f in dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg; do
+            # snk paints BOTH empty cells and the eaten end-state with var(--ce).
+            # 1) Repoint the base ".c" rule (empty cells) at --c0 so they keep the default color.
+            sed -i 's/fill:var(--ce);stroke-width/fill:var(--c0);stroke-width/' "$f"
+            # 2) Make --ce red -> now ONLY the eaten trail (keyframe end-state) turns red.
+            sed -i 's/--ce:#[0-9a-fA-F]\{3,8\}/--ce:#e5534b/' "$f"
+            echo "== $f =="; grep -o ':root{[^}]*}' "$f"
+          done
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
