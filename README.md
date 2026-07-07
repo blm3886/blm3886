@@ -10,7 +10,6 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-blm3886.github.io-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://blm3886.github.io/)
 [![Email](https://img.shields.io/badge/Email-Say_Hello-06B6D4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fernandoxavier3886@gmail.com)
 ![Profile Views](https://komarev.com/ghpvc/?username=blm3886&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS)
 
@@ -212,7 +211,6 @@ Classic **Minesweeper** with a polished GUI — mine flagging, safe-space reveal
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://blm3886.github.io/)
 [![Email](https://img.shields.io/badge/Email-06B6D4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fernandoxavier3886@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/blm3886)
 
