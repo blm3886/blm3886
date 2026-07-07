@@ -16,6 +16,30 @@
 
 </div>
 
+<!-- ═══════════════════════════ GITHUB ACTIVITY ═══════════════════════════ -->
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=blm3886&theme=tokyonight&hide_border=true&background=0D1117&stroke=8B5CF6&ring=06B6D4&fire=8B5CF6&currStreakLabel=06B6D4" alt="GitHub Streak" />
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=blm3886&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=8B5CF6&line=06B6D4&point=ffffff&area=true&days=30" alt="Activity Graph" />
+
+</div>
+
+<!-- ═══════════════════════════ SNAKE ═══════════════════════════ -->
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blm3886/blm3886/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/blm3886/blm3886/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/blm3886/blm3886/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
 <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
 
 ## 🧬 About Me
@@ -144,30 +168,6 @@ Classic **Minesweeper** with a polished GUI — mine flagging, safe-space reveal
 </td>
 </tr>
 </table>
-
-<!-- ═══════════════════════════ GITHUB STATS ═══════════════════════════ -->
-
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=blm3886&theme=tokyonight&hide_border=true&background=0D1117&stroke=8B5CF6&ring=06B6D4&fire=8B5CF6&currStreakLabel=06B6D4" alt="GitHub Streak" />
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=blm3886&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=8B5CF6&line=06B6D4&point=ffffff&area=true" alt="Activity Graph" />
-
-</div>
-
-<!-- ═══════════════════════════ SNAKE ═══════════════════════════ -->
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blm3886/blm3886/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/blm3886/blm3886/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/blm3886/blm3886/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
 
 <!-- ═══════════════════════════ CONNECT ═══════════════════════════ -->
 
