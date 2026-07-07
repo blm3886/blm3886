@@ -70,8 +70,6 @@ class BenFern:
 
 ## 🚀 Featured Projects
 
-> 🔒 = private repo (bioinformatics research work) · 🌐 = has a live demo
-
 <table>
 <tr>
 <td width="50%" valign="top">
