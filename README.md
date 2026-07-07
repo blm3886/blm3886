@@ -149,26 +149,13 @@ Classic **Minesweeper** with a polished GUI — mine flagging, safe-space reveal
 
 <!-- ═══════════════════════════ GITHUB STATS ═══════════════════════════ -->
 
-## 📊 GitHub Analytics
+## 📊 GitHub Activity
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=blm3886&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=c9d1d9" alt="GitHub Stats" />
 <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=blm3886&theme=tokyonight&hide_border=true&background=0D1117&stroke=8B5CF6&ring=06B6D4&fire=8B5CF6&currStreakLabel=06B6D4" alt="GitHub Streak" />
 
-<img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=blm3886&layout=compact&langs_count=8&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=c9d1d9" alt="Top Languages" />
-
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=blm3886&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=8B5CF6&line=06B6D4&point=ffffff&area=true" alt="Activity Graph" />
-
-</div>
-
-<!-- ═══════════════════════════ TROPHIES ═══════════════════════════ -->
-
-## 🏆 Trophy Case
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=blm3886&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8)
 
 </div>
 
