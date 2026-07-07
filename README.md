@@ -40,6 +40,29 @@
 
 </div>
 
+<!-- ═══════════════════════════ PLAYABLE GAME ═══════════════════════════ -->
+
+## 🎮 Play It — Contribution Snake × Minesweeper
+
+<div align="center">
+
+I turned my contribution graph into an **actual playable game** — a mashup of **Snake** and **Minesweeper**.
+Eat the green contributions to grow 🐍, read the minesweeper numbers to sense danger, and dodge the mines hidden in random cells. One wrong move and 💥.
+
+<a href="https://blm3886.github.io/contribution-snake/" title="Click to play">
+  <img width="620" src="https://raw.githubusercontent.com/blm3886/contribution-snake/main/preview.png" alt="Contribution Snake × Minesweeper — click to play" />
+</a>
+
+<br/><br/>
+
+<a href="https://blm3886.github.io/contribution-snake/">
+  <img src="https://img.shields.io/badge/%E2%96%B6%20PLAY%20NOW-Contribution%20Snake-8B5CF6?style=for-the-badge&logo=gamejolt&logoColor=white&labelColor=0D1117" alt="Play Now" height="42" />
+</a>
+
+<sub>Runs in your browser · keyboard + touch controls · <a href="https://github.com/blm3886/contribution-snake">source</a></sub>
+
+</div>
+
 <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
 
 ## 🧬 About Me
