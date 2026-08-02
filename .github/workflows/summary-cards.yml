@@ -18,14 +18,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Generates the summary-card SVGs (contribution radar, stats, languages,
-      # productive time) and pushes them to the profile-summary-card-output branch,
-      # which README.md references via raw.githubusercontent.com.
+      # Generate the summary-card SVGs into ./profile-summary-card-output/.
+      # BRANCH_NAME is intentionally omitted so the action's own (unreliable) auto-push
+      # stays off — we publish the SVGs ourselves below, exactly like snake.yml does.
       - name: Generate summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: "profile-summary-card-output"
           UTC_OFFSET: -7
+
+      - name: Show what was generated
+        run: ls -R profile-summary-card-output || echo "output folder missing"
+
+      # Publish the generated cards to the profile-summary-card-output branch, which
+      # README.md references via raw.githubusercontent.com (same pattern as the snake).
+      - name: Publish cards to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: profile-summary-card-output
+          build_dir: profile-summary-card-output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
