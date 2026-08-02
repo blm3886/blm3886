@@ -43,6 +43,31 @@
 
 </div>
 
+<!-- ═══════════════════════════ LIVE STATS ═══════════════════════════ -->
+
+## 📈 Live Stats
+
+<div align="center">
+
+<!-- Contribution radar — Commits · Issues · Pull requests · Code review -->
+<img width="80%" src="https://raw.githubusercontent.com/blm3886/blm3886/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Contribution radar — commits, issues, pull requests, code review" />
+
+<br/><br/>
+
+<img width="49%" src="https://raw.githubusercontent.com/blm3886/blm3886/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats" />
+<img width="49%" src="https://raw.githubusercontent.com/blm3886/blm3886/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive time (UTC-7)" />
+
+<br/><br/>
+
+<img width="49%" src="https://raw.githubusercontent.com/blm3886/blm3886/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per language" />
+<img width="49%" src="https://raw.githubusercontent.com/blm3886/blm3886/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most-used languages" />
+
+<br/>
+
+<sub>Regenerated daily from the GitHub API · UTC-7</sub>
+
+</div>
+
 <!-- ═══════════════════════════ SNAKE (playable banner) ═══════════════════════════ -->
 
 <div align="center">

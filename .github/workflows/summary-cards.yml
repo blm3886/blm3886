@@ -1,0 +1,31 @@
+name: Generate Profile Summary Cards
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # once a day
+  workflow_dispatch:         # allow manual runs
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      # Generates the summary-card SVGs (contribution radar, stats, languages,
+      # productive time) and pushes them to the profile-summary-card-output branch,
+      # which README.md references via raw.githubusercontent.com.
+      - name: Generate summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "profile-summary-card-output"
+          UTC_OFFSET: -7
