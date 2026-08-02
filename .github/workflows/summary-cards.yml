@@ -16,11 +16,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      # Check out the cards branch (NOT main). This action always auto-commits its
+      # output to whatever branch is checked out, so pointing it here keeps that
+      # bot-commit off main. The publish step below then overwrites this branch with
+      # the flat, final SVGs.
       - uses: actions/checkout@v4
+        with:
+          ref: profile-summary-card-output
+          fetch-depth: 0
 
-      # Generate the summary-card SVGs into ./profile-summary-card-output/.
-      # BRANCH_NAME is intentionally omitted so the action's own (unreliable) auto-push
-      # stays off — we publish the SVGs ourselves below, exactly like snake.yml does.
       - name: Generate summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
@@ -29,15 +33,13 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           UTC_OFFSET: -7
 
-      - name: Show what was generated
-        run: ls -R profile-summary-card-output || echo "output folder missing"
-
-      # Publish the generated cards to the profile-summary-card-output branch, which
-      # README.md references via raw.githubusercontent.com (same pattern as the snake).
+      # Publish the freshly generated SVGs flat at the branch root (tokyonight/… etc.),
+      # replacing the branch — same mechanism snake.yml uses for its output branch.
       - name: Publish cards to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: profile-summary-card-output
           build_dir: profile-summary-card-output
+          keep_history: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
