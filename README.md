@@ -45,11 +45,12 @@
 
 <!-- ═══════════════════════════ LIVE STATS ═══════════════════════════ -->
 
-## 📈 Live Stats
+<!-- ## 📈 Live Stats -->
 
-<div align="center">
+<!-- <div align="center">
 
 <!-- Contribution radar — Commits · Issues · Pull requests · Code review -->
+<!-- ═════
 <img width="80%" src="https://raw.githubusercontent.com/blm3886/blm3886/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Contribution radar — commits, issues, pull requests, code review" />
 
 <br/><br/>
@@ -66,8 +67,8 @@
 
 <sub>Regenerated daily from the GitHub API · UTC-7</sub>
 
-</div>
-
+</div> 
+═══ -->
 <!-- ═══════════════════════════ SNAKE (playable banner) ═══════════════════════════ -->
 
 <div align="center">
