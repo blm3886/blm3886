@@ -84,7 +84,7 @@
 </div>
 
 <!-- ═══════════════════════════ PLAYABLE GAME ═══════════════════════════ -->
-
+<!-- ════
 ## 🎮 Play It — Contribution Snake × Minesweeper
 
 <div align="center">
@@ -101,7 +101,7 @@ Eat the green contributions to grow 🐍, read the minesweeper numbers to sense 
 <sub>Runs in your browser · keyboard + touch controls · <a href="https://github.com/blm3886/contribution-snake">source</a></sub>
 
 </div>
-
+══ -->
 <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
 
 ## 🧬 About Me
