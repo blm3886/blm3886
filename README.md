@@ -27,7 +27,7 @@
 
 <br/>
 
-**⚡ Contribution breakdown** — live from the GitHub API
+**⚡ Contribution breakdown** 
 
 ![Pull Requests](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%3Ablm3886%2Btype%3Apr&query=total_count&style=for-the-badge&label=Pull%20Requests&color=8b5cf6&labelColor=0D1117&logo=git&logoColor=white)
 ![Merged PRs](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%3Ablm3886%2Btype%3Apr%2Bis%3Amerged&query=total_count&style=for-the-badge&label=Merged%20PRs&color=6f42c1&labelColor=0D1117&logo=git&logoColor=white)
